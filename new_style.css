@@ -3,6 +3,7 @@
 	--cjk: 'PingFang SC';
 	--label: 'Barlow Semi Condensed';
 	--data: 'IBM Plex Mono';
+    --hello: 'Macintosh Skeletal';
 	--scale: 1;
 	--body-base: 23px;
 	--body-size: calc(var(--body-base) * var(--scale));
@@ -29,6 +30,14 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+
+@font-face {
+    font-family: 'Macintosh Skeletal';
+    src: url('https://raw.githubusercontent.com/Heyya-x/Kaijunzhu/main/MacintoshSkeletal-Hello.woff2') format('opentype');
+    font-style: normal;
+    font-weight: 270;
+    font-display: swap;
+}
 
 body {
 	font-family: var(--serif), var(--cjk, 'Songti SC'), 'Noto Serif CJK SC', serif;
@@ -107,6 +116,11 @@ a {
 	text-underline-offset: 3px;
 }
 a:hover { color: var(--link-hover); text-decoration-thickness: 2px; }
+
+
+.hello {
+    font-family: var(--hello), var(--serif), sans-serif;
+}
 
 /* the muttering voice */
 .aside {
