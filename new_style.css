@@ -33,7 +33,7 @@ html, body { margin: 0; padding: 0; }
 
 @font-face {
     font-family: 'Macintosh Skeletal';
-    src: url('https://raw.githubusercontent.com/Heyya-x/Kaijunzhu/main/MacintoshSkeletal-Hello.woff2') format('opentype');
+    src: url('https://kaijunzhu.com/MacintoshSkeletal-Hello.woff2') format('opentype');
     font-style: normal;
     font-weight: 270;
     font-display: swap;
